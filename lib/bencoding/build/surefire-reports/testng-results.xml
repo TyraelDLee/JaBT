@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDecoderTest" duration-ms="22" started-at="2020-12-21T09:36:51Z" finished-at="2020-12-21T09:36:51Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="22" started-at="2020-12-21T09:36:51Z" finished-at="2020-12-21T09:36:51Z">
+      <class name="BDecoderTest">
+        <test-method status="PASS" signature="testDecodeNumbers()[pri:0, instance:BDecoderTest@6bdf28bb]" name="testDecodeNumbers" duration-ms="12" started-at="2020-12-21T20:36:51Z" finished-at="2020-12-21T20:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecodeNumbers -->
+      </class> <!-- BDecoderTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- BDecoderTest -->
+</testng-results>

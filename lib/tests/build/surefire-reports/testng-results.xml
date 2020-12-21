@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="39" passed="39">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="203012" started-at="2020-12-21T09:37:30Z" finished-at="2020-12-21T09:40:53Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="203012" started-at="2020-12-21T09:37:30Z" finished-at="2020-12-21T09:40:53Z">
+      <class name="com.turn.ttorrent.client.CommunicationManagerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="147" started-at="2020-12-21T20:37:30Z" finished-at="2020-12-21T20:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canStartAndStopClientTwice()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="canStartAndStopClientTwice" duration-ms="43" started-at="2020-12-21T20:37:30Z" finished-at="2020-12-21T20:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canStartAndStopClientTwice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-21T20:37:30Z" finished-at="2020-12-21T20:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:37:30Z" finished-at="2020-12-21T20:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="corrupted_seeder()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="corrupted_seeder" duration-ms="10528" started-at="2020-12-21T20:37:30Z" finished-at="2020-12-21T20:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- corrupted_seeder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="20" started-at="2020-12-21T20:37:41Z" finished-at="2020-12-21T20:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="5" started-at="2020-12-21T20:37:41Z" finished-at="2020-12-21T20:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="download_io_error()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="download_io_error" duration-ms="12484" started-at="2020-12-21T20:37:41Z" finished-at="2020-12-21T20:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_io_error -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="9" started-at="2020-12-21T20:37:53Z" finished-at="2020-12-21T20:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:37:53Z" finished-at="2020-12-21T20:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="download_many_times()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="download_many_times" duration-ms="17748" started-at="2020-12-21T20:37:53Z" finished-at="2020-12-21T20:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_many_times -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="14" started-at="2020-12-21T20:38:11Z" finished-at="2020-12-21T20:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:38:11Z" finished-at="2020-12-21T20:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="download_multiple_files()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="download_multiple_files" duration-ms="1797" started-at="2020-12-21T20:38:11Z" finished-at="2020-12-21T20:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_multiple_files -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-12-21T20:38:13Z" finished-at="2020-12-21T20:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:38:13Z" finished-at="2020-12-21T20:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="download_uninterruptibly_negative()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="download_uninterruptibly_negative" duration-ms="7163" started-at="2020-12-21T20:38:13Z" finished-at="2020-12-21T20:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_uninterruptibly_negative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="14" started-at="2020-12-21T20:38:20Z" finished-at="2020-12-21T20:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="7" started-at="2020-12-21T20:38:20Z" finished-at="2020-12-21T20:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="download_uninterruptibly_positive()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="download_uninterruptibly_positive" duration-ms="253" started-at="2020-12-21T20:38:20Z" finished-at="2020-12-21T20:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_uninterruptibly_positive -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="15" started-at="2020-12-21T20:38:20Z" finished-at="2020-12-21T20:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:38:20Z" finished-at="2020-12-21T20:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="download_uninterruptibly_timeout()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="download_uninterruptibly_timeout" duration-ms="7163" started-at="2020-12-21T20:38:20Z" finished-at="2020-12-21T20:38:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_uninterruptibly_timeout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="17" started-at="2020-12-21T20:38:27Z" finished-at="2020-12-21T20:38:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:38:27Z" finished-at="2020-12-21T20:38:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="interrupt_download()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="interrupt_download" duration-ms="444" started-at="2020-12-21T20:38:27Z" finished-at="2020-12-21T20:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interrupt_download -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-12-21T20:38:28Z" finished-at="2020-12-21T20:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:38:28Z" finished-at="2020-12-21T20:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="large_file_download()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="large_file_download" duration-ms="3466" started-at="2020-12-21T20:38:28Z" finished-at="2020-12-21T20:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- large_file_download -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="44" started-at="2020-12-21T20:38:31Z" finished-at="2020-12-21T20:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:38:32Z" finished-at="2020-12-21T20:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="more_than_one_seeder_for_same_torrent()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="more_than_one_seeder_for_same_torrent" duration-ms="38" started-at="2020-12-21T20:38:32Z" finished-at="2020-12-21T20:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- more_than_one_seeder_for_same_torrent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-12-21T20:38:32Z" finished-at="2020-12-21T20:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:38:32Z" finished-at="2020-12-21T20:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="no_full_seeder_test()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="no_full_seeder_test" duration-ms="27549" started-at="2020-12-21T20:38:32Z" finished-at="2020-12-21T20:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- no_full_seeder_test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="5" started-at="2020-12-21T20:38:59Z" finished-at="2020-12-21T20:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:38:59Z" finished-at="2020-12-21T20:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="peer_dies_during_download()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="peer_dies_during_download" duration-ms="2669" started-at="2020-12-21T20:38:59Z" finished-at="2020-12-21T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peer_dies_during_download -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="35" started-at="2020-12-21T20:39:02Z" finished-at="2020-12-21T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:39:02Z" finished-at="2020-12-21T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testClosingPieceStorageWhenDownloading()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="testClosingPieceStorageWhenDownloading" duration-ms="217" started-at="2020-12-21T20:39:02Z" finished-at="2020-12-21T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosingPieceStorageWhenDownloading -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="15" started-at="2020-12-21T20:39:02Z" finished-at="2020-12-21T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:39:02Z" finished-at="2020-12-21T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testConnectToAllDiscoveredPeers()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="testConnectToAllDiscoveredPeers" duration-ms="5112" started-at="2020-12-21T20:39:02Z" finished-at="2020-12-21T20:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectToAllDiscoveredPeers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="7" started-at="2020-12-21T20:39:07Z" finished-at="2020-12-21T20:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:39:07Z" finished-at="2020-12-21T20:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHungSeeder()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="testHungSeeder" duration-ms="8618" started-at="2020-12-21T20:39:07Z" finished-at="2020-12-21T20:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHungSeeder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="114" started-at="2020-12-21T20:39:16Z" finished-at="2020-12-21T20:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:39:16Z" finished-at="2020-12-21T20:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testListenersWithBadSeeder()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="testListenersWithBadSeeder" duration-ms="15586" started-at="2020-12-21T20:39:16Z" finished-at="2020-12-21T20:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListenersWithBadSeeder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="103" started-at="2020-12-21T20:39:32Z" finished-at="2020-12-21T20:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:39:32Z" finished-at="2020-12-21T20:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testManySeeders()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="testManySeeders" duration-ms="2341" started-at="2020-12-21T20:39:32Z" finished-at="2020-12-21T20:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManySeeders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="100" started-at="2020-12-21T20:39:34Z" finished-at="2020-12-21T20:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:39:34Z" finished-at="2020-12-21T20:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testThatDownloadStatisticProvidedToTracker()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="testThatDownloadStatisticProvidedToTracker" duration-ms="5131" started-at="2020-12-21T20:39:34Z" finished-at="2020-12-21T20:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatDownloadStatisticProvidedToTracker -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="6" started-at="2020-12-21T20:39:39Z" finished-at="2020-12-21T20:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:39:39Z" finished-at="2020-12-21T20:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testThatSeederIsNotReceivedHaveMessages()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="testThatSeederIsNotReceivedHaveMessages" duration-ms="2066" started-at="2020-12-21T20:39:39Z" finished-at="2020-12-21T20:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatSeederIsNotReceivedHaveMessages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="31" started-at="2020-12-21T20:39:41Z" finished-at="2020-12-21T20:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:39:41Z" finished-at="2020-12-21T20:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testThatTorrentsHaveLazyInitAndRemovingAfterDownload()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="testThatTorrentsHaveLazyInitAndRemovingAfterDownload" duration-ms="2358" started-at="2020-12-21T20:39:41Z" finished-at="2020-12-21T20:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatTorrentsHaveLazyInitAndRemovingAfterDownload -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="29" started-at="2020-12-21T20:39:44Z" finished-at="2020-12-21T20:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:39:44Z" finished-at="2020-12-21T20:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_connect_to_unknown_host()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="test_connect_to_unknown_host" duration-ms="41419" started-at="2020-12-21T20:39:44Z" finished-at="2020-12-21T20:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_connect_to_unknown_host -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="12" started-at="2020-12-21T20:40:25Z" finished-at="2020-12-21T20:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="7" started-at="2020-12-21T20:40:25Z" finished-at="2020-12-21T20:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_seeding_does_not_change_file_modification_date()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="test_seeding_does_not_change_file_modification_date" duration-ms="1545" started-at="2020-12-21T20:40:25Z" finished-at="2020-12-21T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_seeding_does_not_change_file_modification_date -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="13" started-at="2020-12-21T20:40:27Z" finished-at="2020-12-21T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="5" started-at="2020-12-21T20:40:27Z" finished-at="2020-12-21T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="torrentListenersPositiveTest()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="torrentListenersPositiveTest" duration-ms="204" started-at="2020-12-21T20:40:27Z" finished-at="2020-12-21T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- torrentListenersPositiveTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="11" started-at="2020-12-21T20:40:27Z" finished-at="2020-12-21T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:40:27Z" finished-at="2020-12-21T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="unlock_file_when_no_leechers()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="unlock_file_when_no_leechers" duration-ms="2584" started-at="2020-12-21T20:40:27Z" finished-at="2020-12-21T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unlock_file_when_no_leechers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.CommunicationManagerTest@cc285f4]" name="tearDown" is-config="true" duration-ms="8" started-at="2020-12-21T20:40:30Z" finished-at="2020-12-21T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.turn.ttorrent.client.CommunicationManagerTest -->
+      <class name="com.turn.ttorrent.tracker.TrackerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:40:39Z" finished-at="2020-12-21T20:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPeerWithManyInterfaces()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="testPeerWithManyInterfaces" duration-ms="755" started-at="2020-12-21T20:40:40Z" finished-at="2020-12-21T20:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPeerWithManyInterfaces -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tearDown" is-config="true" duration-ms="8" started-at="2020-12-21T20:40:40Z" finished-at="2020-12-21T20:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="setUp" is-config="true" duration-ms="7" started-at="2020-12-21T20:40:40Z" finished-at="2020-12-21T20:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_share_and_download()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="test_share_and_download" duration-ms="538" started-at="2020-12-21T20:40:40Z" finished-at="2020-12-21T20:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_share_and_download -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-12-21T20:40:41Z" finished-at="2020-12-21T20:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="setUp" is-config="true" duration-ms="3" started-at="2020-12-21T20:40:41Z" finished-at="2020-12-21T20:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_tracker_all_ports()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="test_tracker_all_ports" duration-ms="215" started-at="2020-12-21T20:40:41Z" finished-at="2020-12-21T20:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_tracker_all_ports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-12-21T20:40:41Z" finished-at="2020-12-21T20:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:40:41Z" finished-at="2020-12-21T20:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tracker_accepts_torrent_from_leech()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tracker_accepts_torrent_from_leech" duration-ms="524" started-at="2020-12-21T20:40:41Z" finished-at="2020-12-21T20:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracker_accepts_torrent_from_leech -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-12-21T20:40:42Z" finished-at="2020-12-21T20:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="setUp" is-config="true" duration-ms="4" started-at="2020-12-21T20:40:42Z" finished-at="2020-12-21T20:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tracker_accepts_torrent_from_seeder()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tracker_accepts_torrent_from_seeder" duration-ms="535" started-at="2020-12-21T20:40:42Z" finished-at="2020-12-21T20:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracker_accepts_torrent_from_seeder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-21T20:40:42Z" finished-at="2020-12-21T20:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="setUp" is-config="true" duration-ms="5" started-at="2020-12-21T20:40:42Z" finished-at="2020-12-21T20:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tracker_accepts_torrent_from_seeder_plus_leech()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tracker_accepts_torrent_from_seeder_plus_leech" duration-ms="539" started-at="2020-12-21T20:40:42Z" finished-at="2020-12-21T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracker_accepts_torrent_from_seeder_plus_leech -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-12-21T20:40:43Z" finished-at="2020-12-21T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="setUp" is-config="true" duration-ms="5" started-at="2020-12-21T20:40:43Z" finished-at="2020-12-21T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tracker_removes_peer_after_peer_shutdown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tracker_removes_peer_after_peer_shutdown" duration-ms="37" started-at="2020-12-21T20:40:43Z" finished-at="2020-12-21T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracker_removes_peer_after_peer_shutdown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-12-21T20:40:43Z" finished-at="2020-12-21T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="setUp" is-config="true" duration-ms="6" started-at="2020-12-21T20:40:43Z" finished-at="2020-12-21T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tracker_removes_peer_after_timeout()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tracker_removes_peer_after_timeout" duration-ms="10238" started-at="2020-12-21T20:40:43Z" finished-at="2020-12-21T20:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracker_removes_peer_after_timeout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerTest@1d057a39]" name="tearDown" is-config="true" duration-ms="6" started-at="2020-12-21T20:40:53Z" finished-at="2020-12-21T20:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.turn.ttorrent.tracker.TrackerTest -->
+      <class name="com.turn.ttorrent.common.TorrentTest">
+        <test-method status="PASS" signature="load_torrent_created_by_utorrent()[pri:0, instance:com.turn.ttorrent.common.TorrentTest@26be92ad]" name="load_torrent_created_by_utorrent" duration-ms="1" started-at="2020-12-21T20:40:30Z" finished-at="2020-12-21T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_torrent_created_by_utorrent -->
+        <test-method status="PASS" signature="testFilenames()[pri:0, instance:com.turn.ttorrent.common.TorrentTest@26be92ad]" name="testFilenames" duration-ms="1" started-at="2020-12-21T20:40:30Z" finished-at="2020-12-21T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilenames -->
+        <test-method status="PASS" signature="test_create_torrent()[pri:0, instance:com.turn.ttorrent.common.TorrentTest@26be92ad]" name="test_create_torrent" duration-ms="7" started-at="2020-12-21T20:40:30Z" finished-at="2020-12-21T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create_torrent -->
+        <test-method status="PASS" signature="torrent_from_multiple_files()[pri:0, instance:com.turn.ttorrent.common.TorrentTest@26be92ad]" name="torrent_from_multiple_files" duration-ms="14" started-at="2020-12-21T20:40:30Z" finished-at="2020-12-21T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- torrent_from_multiple_files -->
+      </class> <!-- com.turn.ttorrent.common.TorrentTest -->
+      <class name="com.turn.ttorrent.tracker.TrackerAnnounceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.tracker.TrackerAnnounceTest@55f3ddb1]" name="setUp" is-config="true" duration-ms="4525" started-at="2020-12-21T20:40:30Z" finished-at="2020-12-21T20:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_announce()[pri:0, instance:com.turn.ttorrent.tracker.TrackerAnnounceTest@55f3ddb1]" name="test_announce" duration-ms="3" started-at="2020-12-21T20:40:34Z" finished-at="2020-12-21T20:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_announce -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.tracker.TrackerAnnounceTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-21T20:40:34Z" finished-at="2020-12-21T20:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.turn.ttorrent.tracker.TrackerAnnounceTest -->
+      <class name="com.turn.ttorrent.client.announce.TrackerClientTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.turn.ttorrent.client.announce.TrackerClientTest@4f933fd1]" name="setUp" is-config="true" duration-ms="4535" started-at="2020-12-21T20:40:34Z" finished-at="2020-12-21T20:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiAnnounceTest()[pri:0, instance:com.turn.ttorrent.client.announce.TrackerClientTest@4f933fd1]" name="multiAnnounceTest" duration-ms="891" started-at="2020-12-21T20:40:39Z" finished-at="2020-12-21T20:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiAnnounceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.turn.ttorrent.client.announce.TrackerClientTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-12-21T20:40:39Z" finished-at="2020-12-21T20:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.turn.ttorrent.client.announce.TrackerClientTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

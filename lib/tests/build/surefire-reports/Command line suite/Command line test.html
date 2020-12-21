@@ -1,0 +1,274 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 21 20:37:30 AEDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>203 seconds (203012 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.canStartAndStopClientTwice()'><b>canStartAndStopClientTwice</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.corrupted_seeder()'><b>corrupted_seeder</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>10</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.download_io_error()'><b>download_io_error</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>12</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.download_many_times()'><b>download_many_times</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>17</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.download_multiple_files()'><b>download_multiple_files</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>1</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.download_uninterruptibly_negative()'><b>download_uninterruptibly_negative</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>7</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.download_uninterruptibly_positive()'><b>download_uninterruptibly_positive</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.download_uninterruptibly_timeout()'><b>download_uninterruptibly_timeout</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>7</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.interrupt_download()'><b>interrupt_download</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.large_file_download()'><b>large_file_download</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>3</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.common.TorrentTest.load_torrent_created_by_utorrent()'><b>load_torrent_created_by_utorrent</b><br>Test class: com.turn.ttorrent.common.TorrentTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.common.TorrentTest@26be92ad</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.more_than_one_seeder_for_same_torrent()'><b>more_than_one_seeder_for_same_torrent</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.announce.TrackerClientTest.multiAnnounceTest()'><b>multiAnnounceTest</b><br>Test class: com.turn.ttorrent.client.announce.TrackerClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.client.announce.TrackerClientTest@4f933fd1</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.no_full_seeder_test()'><b>no_full_seeder_test</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>27</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.peer_dies_during_download()'><b>peer_dies_during_download</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>2</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.testClosingPieceStorageWhenDownloading()'><b>testClosingPieceStorageWhenDownloading</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.testConnectToAllDiscoveredPeers()'><b>testConnectToAllDiscoveredPeers</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>5</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.common.TorrentTest.testFilenames()'><b>testFilenames</b><br>Test class: com.turn.ttorrent.common.TorrentTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.common.TorrentTest@26be92ad</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.testHungSeeder()'><b>testHungSeeder</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>8</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.testListenersWithBadSeeder()'><b>testListenersWithBadSeeder</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>15</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.testManySeeders()'><b>testManySeeders</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>2</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerTest.testPeerWithManyInterfaces()'><b>testPeerWithManyInterfaces</b><br>Test class: com.turn.ttorrent.tracker.TrackerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.tracker.TrackerTest@1d057a39</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.testThatDownloadStatisticProvidedToTracker()'><b>testThatDownloadStatisticProvidedToTracker</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>5</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.testThatSeederIsNotReceivedHaveMessages()'><b>testThatSeederIsNotReceivedHaveMessages</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>2</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.testThatTorrentsHaveLazyInitAndRemovingAfterDownload()'><b>testThatTorrentsHaveLazyInitAndRemovingAfterDownload</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>2</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerAnnounceTest.test_announce()'><b>test_announce</b><br>Test class: com.turn.ttorrent.tracker.TrackerAnnounceTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.tracker.TrackerAnnounceTest@55f3ddb1</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.test_connect_to_unknown_host()'><b>test_connect_to_unknown_host</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>41</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.common.TorrentTest.test_create_torrent()'><b>test_create_torrent</b><br>Test class: com.turn.ttorrent.common.TorrentTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.common.TorrentTest@26be92ad</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.test_seeding_does_not_change_file_modification_date()'><b>test_seeding_does_not_change_file_modification_date</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>1</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerTest.test_share_and_download()'><b>test_share_and_download</b><br>Test class: com.turn.ttorrent.tracker.TrackerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.tracker.TrackerTest@1d057a39</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerTest.test_tracker_all_ports()'><b>test_tracker_all_ports</b><br>Test class: com.turn.ttorrent.tracker.TrackerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.tracker.TrackerTest@1d057a39</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.torrentListenersPositiveTest()'><b>torrentListenersPositiveTest</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+<tr>
+<td title='com.turn.ttorrent.common.TorrentTest.torrent_from_multiple_files()'><b>torrent_from_multiple_files</b><br>Test class: com.turn.ttorrent.common.TorrentTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.common.TorrentTest@26be92ad</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerTest.tracker_accepts_torrent_from_leech()'><b>tracker_accepts_torrent_from_leech</b><br>Test class: com.turn.ttorrent.tracker.TrackerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.tracker.TrackerTest@1d057a39</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerTest.tracker_accepts_torrent_from_seeder()'><b>tracker_accepts_torrent_from_seeder</b><br>Test class: com.turn.ttorrent.tracker.TrackerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.tracker.TrackerTest@1d057a39</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerTest.tracker_accepts_torrent_from_seeder_plus_leech()'><b>tracker_accepts_torrent_from_seeder_plus_leech</b><br>Test class: com.turn.ttorrent.tracker.TrackerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.tracker.TrackerTest@1d057a39</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerTest.tracker_removes_peer_after_peer_shutdown()'><b>tracker_removes_peer_after_peer_shutdown</b><br>Test class: com.turn.ttorrent.tracker.TrackerTest</td>
+<td></td>
+<td>0</td>
+<td>com.turn.ttorrent.tracker.TrackerTest@1d057a39</td></tr>
+<tr>
+<td title='com.turn.ttorrent.tracker.TrackerTest.tracker_removes_peer_after_timeout()'><b>tracker_removes_peer_after_timeout</b><br>Test class: com.turn.ttorrent.tracker.TrackerTest</td>
+<td></td>
+<td>10</td>
+<td>com.turn.ttorrent.tracker.TrackerTest@1d057a39</td></tr>
+<tr>
+<td title='com.turn.ttorrent.client.CommunicationManagerTest.unlock_file_when_no_leechers()'><b>unlock_file_when_no_leechers</b><br>Test class: com.turn.ttorrent.client.CommunicationManagerTest</td>
+<td></td>
+<td>2</td>
+<td>com.turn.ttorrent.client.CommunicationManagerTest@cc285f4</td></tr>
+</table><p>
+</body>
+</html>

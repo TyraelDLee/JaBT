@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="39" failures="0" name="TestSuite" time="192.838" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="X:\Download\ttorrent-master\ttorrent-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="X:\Download\ttorrent-master\ttorrent-master"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\leety\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Applications\Developer Tools\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;X:\Develop\CUDA\Dev_10.2\bin;X:\Develop\CUDA\Dev_10.2\libnvvp;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Applications\Developer Tools\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Applications\Developer Tools\Microsoft VS Code\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;X:\Develop\ANACONDA;X:\Develop\ANACONDA\Scripts;D:\Applications\Developer Tools\Nmap;X:\Develop\CMake\bin;X:\Develop\boost_1_73_0;X:\Develop\boost_1_73_0\libs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Applications\Developer Tools\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_271\bin;D:\Applications\Developer Tools\GNAT\bin;C:\Users\leety\AppData\Local\Microsoft\WindowsApps;Y:\Apache_server\Apache24\bin;Y:\Apache_Server\PHP\ImageMagick-7.0.7-Q16;Y:\Apache_Server\PHP;C:\Users\leety\AppData\Local\GitHubDesktop\bin;D:\Applications\Developer Tools\PyCham\PyCharm_2018.3.5\bin;C:\Program Files\Tesseract-OCR;C:\Users\leety\AppData\Local\Microsoft\WindowsApps;C:\Users\leety\AppData\Local\Programs\Microsoft VS Code\bin;D:\Applications\Developer Tools\IntelliJ IDEA 2020.2.2\bin;."/>
+    <property name="maven.conf" value="D:\Applications\Developer Tools\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Applications\Developer Tools\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\leety"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="leety"/>
+    <property name="java.class.path" value="D:\Applications\Developer Tools\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Applications\Developer Tools\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="canStartAndStopClientTwice" time="0.042"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="corrupted_seeder" time="10.548"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="download_io_error" time="12.485"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="download_many_times" time="17.748"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="download_multiple_files" time="1.797"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="download_uninterruptibly_negative" time="7.162"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="download_uninterruptibly_positive" time="0.252"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="download_uninterruptibly_timeout" time="7.163"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="interrupt_download" time="0.444"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="large_file_download" time="3.466"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="more_than_one_seeder_for_same_torrent" time="0.038"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="no_full_seeder_test" time="27.549"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="peer_dies_during_download" time="2.669"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="testClosingPieceStorageWhenDownloading" time="0.217"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="testConnectToAllDiscoveredPeers" time="5.111"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="testHungSeeder" time="8.618"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="testListenersWithBadSeeder" time="15.587"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="testManySeeders" time="2.34"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="testThatDownloadStatisticProvidedToTracker" time="5.131"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="testThatSeederIsNotReceivedHaveMessages" time="2.066"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="testThatTorrentsHaveLazyInitAndRemovingAfterDownload" time="2.357"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="test_connect_to_unknown_host" time="41.419"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="test_seeding_does_not_change_file_modification_date" time="1.544"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="torrentListenersPositiveTest" time="0.204"/>
+  <testcase classname="com.turn.ttorrent.client.CommunicationManagerTest" name="unlock_file_when_no_leechers" time="2.584"/>
+  <testcase classname="com.turn.ttorrent.common.TorrentTest" name="load_torrent_created_by_utorrent" time="0.001"/>
+  <testcase classname="com.turn.ttorrent.common.TorrentTest" name="testFilenames" time="0.001"/>
+  <testcase classname="com.turn.ttorrent.common.TorrentTest" name="test_create_torrent" time="0.006"/>
+  <testcase classname="com.turn.ttorrent.common.TorrentTest" name="torrent_from_multiple_files" time="0.014"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerAnnounceTest" name="test_announce" time="0.003"/>
+  <testcase classname="com.turn.ttorrent.client.announce.TrackerClientTest" name="multiAnnounceTest" time="0.891"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerTest" name="testPeerWithManyInterfaces" time="0.755"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerTest" name="test_share_and_download" time="0.538"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerTest" name="test_tracker_all_ports" time="0.215"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerTest" name="tracker_accepts_torrent_from_leech" time="0.524"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerTest" name="tracker_accepts_torrent_from_seeder" time="0.535"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerTest" name="tracker_accepts_torrent_from_seeder_plus_leech" time="0.539"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerTest" name="tracker_removes_peer_after_peer_shutdown" time="0.037"/>
+  <testcase classname="com.turn.ttorrent.tracker.TrackerTest" name="tracker_removes_peer_after_timeout" time="10.238"/>
+</testsuite>
